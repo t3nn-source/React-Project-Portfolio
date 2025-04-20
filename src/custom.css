@@ -1,0 +1,87 @@
+/* App.css */
+
+/* Custom theme colors */
+:root {
+  --bs-primary: #2C3E50;
+  --bs-secondary: #7F8C8D;
+  --bs-accent: #16A085;
+  --bs-light: #FDFEFE;
+  --bs-dark: #1A1A1A;
+
+  --bs-body-bg: var(--bs-light);
+  --bs-body-color: #2c3e50;
+}
+
+/* Base styles */
+body {
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  font-family: 'Inter', sans-serif;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #1A252F;
+  border-color: #1A252F;
+}
+
+.btn-secondary {
+  background-color: var(--bs-secondary);
+  border-color: var(--bs-secondary);
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #636e72;
+  border-color: #636e72;
+}
+
+.btn-accent {
+  background-color: var(--bs-accent);
+  border-color: var(--bs-accent);
+  color: white;
+}
+
+.btn-accent:hover {
+  background-color: #13856b;
+  border-color: #13856b;
+}
+
+/* Text & background utils */
+.text-primary {
+  color: var(--bs-primary) !important;
+}
+
+.text-secondary {
+  color: var(--bs-secondary) !important;
+}
+
+.text-accent {
+  color: var(--bs-accent) !important;
+}
+
+.bg-primary {
+  background-color: var(--bs-primary) !important;
+  color: white;
+}
+
+.bg-secondary {
+  background-color: var(--bs-secondary) !important;
+  color: white;
+}
+
+.bg-dark {
+  background-color: var(--bs-dark) !important;
+  color: white;
+}
+
+.bg-light {
+  background-color: var(--bs-light) !important;
+  color: var(--bs-primary);
+}
